@@ -1,11 +1,11 @@
 function [outRect hz win0 rect0 cWhite0 cBlack0 cGrey0 scr0]= OpenStandardScreen 
-%OpenStandardScreen creates and opens a psychtoolbox Screen in Ryan's
+%OpenStandardScreen creates and opens a psychtoolbox screen in Ryan's
 %standard settings
 
-% using 32 bits, with the Screen being on the wholes primary Screen (if there are
+% using 32 bits, with the screen being on the wholes primary screen (if there are
 % muiltiple monitors), with a standard CLUT, 16-point Geneva font.
 
-% Outputs include "outRect", the pixel size of the Screen, and hz, the
+% Outputs include "outRect", the pixel size of the screen, and hz, the
 % refresh rate of the monitor.
 
 %This also defines a color scheme, with the variables cWhite0, cGrey0, and
@@ -26,7 +26,7 @@ cBlack0 = 0;
 cGrey0 = 160;
 Screen('TextSize',win0,16');
 Screen('TextFont',win0,'Geneva');
-hz = Screen('FrameRate', win0);
+hz = screen('FrameRate', win0);
 
 end
 

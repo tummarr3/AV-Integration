@@ -26,7 +26,7 @@ cBlack0 = 0;
 cGrey0 = 160;
 Screen('TextSize',win0,16');
 Screen('TextFont',win0,'Geneva');
-hz = screen('FrameRate', win0);
+hz = Screen('FrameRate', win0);
 
 end
 
